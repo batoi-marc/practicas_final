@@ -71,6 +71,7 @@ public class Principal {
 
 		System.out.println("22.- Ejercicio 22 (Sergi Cortés)");
 		System.out.println("30.- Salir");
+		System.out.println("1.-Ejercicio 1 (Marc Reig Martinez)");
 	}
 
 	/*
@@ -114,6 +115,7 @@ public class Principal {
 			System.out.println("Proyecto que une todos los ejercicios del Tema 4 en un solo fichero./n/n");
 			break;
 		case 1:
+				Ejercicio1();
 			break;
 		case 2:
 			exercici02();
@@ -194,6 +196,30 @@ public class Principal {
 
 		return correcto;
 	}
+	
+	
+	public class Actividad1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		multiplicar();
+		
+	}
+	
+	public static void multiplicar() {
+		
+		for (int i = 1; i <=10; i++) {
+			System.out.println("La tabla del "+i+" ---------------------------------------------");
+			for (int j = 1; j <=10; j++) {
+				System.out.println(i+"x"+j+" es "+i*j);
+			}
+			
+			System.out.println();
+			
+		}
+	}
+
+}
 
 
 	/*
